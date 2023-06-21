@@ -1,0 +1,62 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Programs/Fallback.sol": "Fallback"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Programs/Fallback.sol": {
+			"keccak256": "0x730f24bc4aeee66fa308a3f369489b4184446e35c1570e4baa30d3a186b834ad",
+			"urls": [
+				"bzz-raw://7316362bdfcec4a7b0610b2febf4a6f6bca8eec63b546b8c536500a79a148180",
+				"dweb:/ipfs/QmfYBK37Zx7NAjb9rojVrWuM31BqiRYVegzPPiYBjN5oQR"
+			]
+		}
+	},
+	"version": 1
+}

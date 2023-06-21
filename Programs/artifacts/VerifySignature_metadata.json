@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_signer",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes",
+						"name": "sig",
+						"type": "bytes"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Programs/Verify signature.sol": "VerifySignature"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Programs/Verify signature.sol": {
+			"keccak256": "0x16bb57a3dff1a6189a00afa1ec87d5e1284317d5243a4b2cacc020975ecd2fbe",
+			"urls": [
+				"bzz-raw://d9a389ad91ba7cc0e6d3a94782bf2e22021374601077e5a24d20fedb04df9022",
+				"dweb:/ipfs/QmVfqjuW2ABAvRMwb8DuNfmJuB6FLpAXVUKmcjNXNJkhMq"
+			]
+		}
+	},
+	"version": 1
+}

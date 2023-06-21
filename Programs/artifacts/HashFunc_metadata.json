@@ -1,0 +1,122 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_text2",
+						"type": "string"
+					}
+				],
+				"name": "encode",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_text2",
+						"type": "string"
+					}
+				],
+				"name": "encodePacked",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "text",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "hash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Programs/Hash.sol": "HashFunc"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Programs/Hash.sol": {
+			"keccak256": "0x428dd0694053ef17b92a2c87b52f9f664c263779e4d147ee3fd20b309e6245b1",
+			"urls": [
+				"bzz-raw://b43f43e51c811f74d0abbc66dd6c686e5d94128404a26fd7e00e1620bce799e2",
+				"dweb:/ipfs/QmVtfD6iMx2SrWwjkYfhsFxHMHqNviQrDtuxdjmuvARNaT"
+			]
+		}
+	},
+	"version": 1
+}

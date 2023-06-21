@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Programs/Verify signature.sol": "Verifig"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Programs/Verify signature.sol": {
+			"keccak256": "0xaf7ed6b5458401bed444bbd05209462007ec571007fa4e8e24daeef1aa27e412",
+			"urls": [
+				"bzz-raw://b1f02a98c96d90c34ee3a17d5064be8132fc722352aa83653860ca506e58bb3f",
+				"dweb:/ipfs/QmPhYGFGeAqFHzyMgqv238PG31sPTxT23KWo7Mv7w1XYVF"
+			]
+		}
+	},
+	"version": 1
+}
